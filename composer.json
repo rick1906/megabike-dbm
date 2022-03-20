@@ -1,0 +1,32 @@
+{
+    "name": "rick/megabike-dbm",
+    "type": "library",
+    "description": "Simple database management & query generation library",
+    "keywords": [
+        "db",
+        "mysql"
+    ],
+    "homepage": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rick",
+            "email": "rick-san@mail.ru",
+            "homepage": ""
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "megabike\\db\\": "./"
+        }
+    },
+    "autoload-dev": {
+    },
+    "extra": {
+    }
+}
